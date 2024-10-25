@@ -54,3 +54,7 @@ while True:
         text = transcribe_audio_to_text("input.wav")
         response = generate_response(text)
         speak_text(response)
+
+## Acknowledgments
+
+This project was inspired by a tutorial created by [Ai-Austin](https://github.com/Ai-Austin). While modifications were made to add additional features and customizations, the initial structure and core concepts were based on their original work.
